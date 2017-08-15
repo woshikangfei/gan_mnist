@@ -82,5 +82,6 @@ tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=logits, labels=lab
 
 然后，在优化器中，我们将变量列表传递给`minimize`方法的`var_list`关键字参数。这告诉优化器仅更新列出的变量。像`tf.train.AdamOptimizer().minimize(loss, var_list=var_list)`一样，只会训练`var_list`中的变量。
 
-
+## 最终的运行结果
+![GAN Network](assets/output.png)
 
